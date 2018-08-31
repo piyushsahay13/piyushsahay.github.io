@@ -1,0 +1,283 @@
+.dp
+{
+  float: left;
+ transition-timing-function: ease-in-out;
+}
+.cf
+{
+  zoom: 1;
+}
+.container > div > h1{
+  text-decoration-line: underline overline;
+}
+.container > div > h3{
+  text-decoration-line: underline overline;
+}
+.cf:after,
+.cf:before {
+  content: ' ';
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+a:link,
+a:visited {
+  color: inherit; }
+
+a:hover,
+a:active {
+  outline: 0; }
+
+a:focus {
+  outline: thin dotted; }
+
+
+img {
+  border-style: none;
+  vertical-align: bottom; }
+
+fieldset {
+  border-style: none; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #f8f8f8;
+  font-family: Gabriola;
+  max-width: 100%;
+   overflow-x: hidden;
+ }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+}
+.container
+{
+    width:960px;
+    margin:0px auto;
+    height:0px;
+}
+.ct
+{
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: justify;
+    margin-top: 30px;
+    width: 660px;
+    margin: 0px auto;
+    float: right;
+  }
+#preamble
+{
+  float: right;
+  max-width: 1000px;
+  font-family: Arial;
+}
+.strong
+{
+  color:#212328;
+}
+.map
+{
+  border:0;
+}
+.tab
+{
+    margin: auto;
+    font-family: Arial;
+    padding: 10px;
+}
+.cd
+{
+  background-color: #f5f5f5;
+  width: 960px;
+  height:150px;
+  font-size: 20px;
+      padding: 27px;
+}
+.cd >p
+{
+  font-style: Arial;
+}
+.fnm
+{
+    width: 646px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.lnm
+{
+    width: 646px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.cc
+{
+    width: 125px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.cn
+{
+    width: 512px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.co
+{
+    width: 646px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.eid
+{
+    width: 646px;
+    height: 80px;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.bt
+{
+    width: 107px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    background: rgb(255,153,0);
+    padding: 5px;
+    margin: 30px auto;
+    cursor:pointer;
+}
+.fd
+{
+    float: left;
+    clear: both;
+    padding: initial;
+}
+.sd
+{
+    float: right;
+
+}
+section#content{
+  left: 47px;
+  position: relative;
+}
+.quote
+{
+    left: 47px;
+  position: relative;
+}
+header
+{
+  padding:0 60px 60px;
+}
+section#content #pfd{padding:60px 0}
+section#content #pfd img{height:28px;width:140px}
+section#content #our-work{zoom:1}
+section#content #our-work:after,section#content #our-work:before{content:' ';display:table}
+section#content #our-work:after{clear:both}section#content #our-work{margin-bottom:0}
+section#content #our-work ul{list-style:none}
+section#content #our-work ul li{display:block;float:left;height:359px;width:449px;position:relative}
+section#content #our-work ul li a{text-decoration:none}
+section#content #our-work ul li img{width:100%}
+section#content #our-work ul li .overlay{background-color:rgba(248,129,75,.9);height:100%;left:0;position:absolute;top:0;width:100%;opacity:0;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+section#content #our-work ul li .overlay:hover{background-color:rgba(248,129,75,.9);height:100%;left:0;position:absolute;top:0;width:100%;opacity:1;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+section#content #our-work ul li .overlay summary{bottom:30px;left:60px;padding-right:30px;position:absolute}
+section#content #our-work ul li .overlay summary h2{background:url(../images/pfd-sprites.png) no-repeat left bottom;color:#fff;font:400 20px/1em Source Sans Pro,sans-serif;padding-bottom:15px}
+section#content #our-work ul li .overlay summary h3{color:#813815;font:300 15px/0.9em Source Sans Pro,sans-serif;padding-top:12px}
+section#content #our-work ul li .overlay .loves span{background:transparent url(../images/pfd-sprites.png) no-repeat right -121px;color:#ed7b47;font:300 15px/1.4em museo-sans,sans-serif;line-height:80px;padding-right:25px}
+section#content #work-bio{left:0;position:fixed;top:0;width:40%}
+section#content #work-bio #preamble h1{line-height:1em;padding-bottom:0}
+section#content #work-bio #preamble h2,section#content #work-bio #preamble p.space-after{padding-bottom:50px}
+section#content #work-bio #links{height:80px;list-style:none;margin:40px 0}
+section#content #work-bio #links li{float:left;margin-right:40px}
+section#content #work-bio #links #ilovethis{-moz-borderradius:40px;-webkit-borderradius:40px;background-color:#fc3e3c;border-radius:40px;cursor:pointer;display:block;height:80px;text-align:center;width:80px}
+section#content #work-bio #links #ilovethis span{background:transparent url(../images/pfd-sprites.png) no-repeat right -201px;color:#fff;font:300 15px/1.4em museo-sans,sans-serif;line-height:80px;padding-right:25px}
+section#content #work-bio #links #ilovethis.unloved,section#content #work-bio #links #ilovethis:hover{background:#212328 url(../images/pfd-sprites.png) no-repeat 10px -170px}
+section#content #work-bio #links #ilovethis.unloved span,section#content #work-bio #links #ilovethis:hover span{display:none}
+section#content #work-bio #links #ilovethis.loved:hover{background-image:none}
+section#content #work-bio #links #ilovethis.loved:hover span{display:inline}
+section#content #work-bio #links #home{-moz-borderradius:40px;-webkit-borderradius:40px;background:#fc3e3c url(../images/pfd-sprites.png) no-repeat 50% -250px;border-radius:40px;cursor:pointer;display:block;height:80px;text-indent:-8000px;width:80px}
+section#content #work-visuals{float:right;width:60%}
+section#content #work-visuals ul{list-style:none}
+section#content #work-visuals ul li{line-height:0;margin-bottom:10px}
+section#content #work-visuals ul li img{width:100%}
+section#content #preamble a.read-more{border-style:none;color:#212328;font:300 15px/1.4em Source Sans Pro,sans-serif;text-decoration:none}
+section#content #preamble a.read-more:hover{color:#80807e}
+section #what-we-do header{background:transparent url(../images/grass.jpg) no-repeat 100% top fixed;padding:0 60px}
+section#content #what-we-do header #preamble{padding-bottom:60px}
+section #what-we-do article{padding:120px 60px}
+section #what-we-do article h2{color:#212328;font:300 22px/1.2em Source Sans Pro,sans-serif}
+section#content footer#msf{top:1500px;left:0;position:absolute;width:100%}
+footer#msf .wrapper{border-top:1px solid #e4e4e4;height:73px;margin:0 60px}
+footer#msf ul#lets-be-social{float:left;width:230px;list-style:none}
+footer#msf ul#lets-be-social li{float:left;padding-right:8px}
+footer#msf div#legal{float:right;font:400 15px/1em Source Sans Pro,sans-serif;text-align:right;width:300px}
+footer#msf div#legal span{padding-right:36px}
+footer#msf li a,footer#msf span{line-height:73px}
+footer#msf #legal span{line-height:20px;margin-top:20px;display:block;}
+footer#msf a{font:300 14px museo-sans,sans-serif;text-decoration:none}
+footer#msf a:hover{color:#80807e}
+nav#toc{background-color:#212328;height:100%;position:fixed;right:-240px;top:0;width:240px}
+nav#toc ul{list-style:none;padding:60px 40px 0}
+nav#toc ul li{border-top:1px solid #424650;padding:4px 0 5px}
+nav#toc ul li a{color:#80807e;font:300 15px/2em museo-sans,sans-serif;text-decoration:none}
+nav#toc ul li a.active,nav#toc ul li a:hover{color:#fff}nav#toc ul li:first-child{border-top:none}
+nav#toc a#toc-actuator{background:#f8f8f8 url(../images/pfd-sprites.png) no-repeat left top;cursor:pointer;display:block;height:30px;left:-94px;position:absolute;text-indent:-8000px;top:60px;width:34px;z-index:5000}
+footer#msf .wrapper{margin:0 30px}
+section#content header{padding:0 30px 60px}
+section#content #pfd{padding-top:30px}
+section#content #our-work ul li .overlay summary{left:30px}
+section#content #our-work ul li .overlay .loves{right:30px;top:30px}
+section#content #pfd-work footer{padding:50px 30px 0}
+section#content #what-we-do header{padding:0 30px}
+section#content #what-we-do article{padding:120px 30px}
+section#content #what-we-do #web-design .parallax{background:#ededeb url(/images/web-development-med.jpg) no-repeat 50% 0!important;height:750px}
+section#content #what-we-do #identity article{padding:120px 30px}
+nav#toc ul{padding-top:30px}
+nav#toc a#toc-actuator{left:-64px;top:30px}}
+section#content #work-bio{float:none;position:relative;width:auto}
+section#content #work-visuals{float:none;width:auto}
+section#content #pfd-work #links{display:none}
+section#content #what-we-do section article{padding:60px 30px}
+section#content #what-we-do #web-design .parallax{background:#ededeb url(/images/web-development-sm.jpg) no-repeat 50% 0!important;height:460px}
+section#content #what-we-do #identity{border-bottom:none}
+section#content #what-we-do #identity article{padding:60px 30px}
+section#content #pfd-about #example-photographs li,section#content #what-we-do #photography #example-photographs li{width:100%!important}
+section#content p.em{ museo-sans,sans-serif!important}}
+@media screen and (max-width:460px){section#content{padding-bottom:234px}
+section#content #what-we-do #photography #example-photographs li{min-height:50px}
+footer#msf .wrapper{padding:20px 0}
+footer#msf ul#lets-be-social{float:none;width:auto;zoom:1}
+footer#msf ul#lets-be-social:after,footer#msf ul#lets-be-social:before{content:' ';display:table}
+footer#msf ul#lets-be-social:after{clear:both}
+footer#msf div#legal{float:none;width:auto}
+footer#msf div#legal span{display:block;padding-left:0;text-align:left}
+footer#msf li a,footer#msf span{line-height:1em}

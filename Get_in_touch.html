@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Contact Me-Piyush Sahay</title>
+    <link href="styles/main.css" rel="stylesheet" media="screen, print" type="text/css">
+    <script src="lib/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <section id="content">
+            <div id="what-we-do">
+            	<header>
+    				<div id="pfd">
+        				<a href="index.html">
+            			<img src="images/logo.png" alt="Logo">
+        				</a>
+    				</div>
+				</header>
+				<main>
+					<div class="container">
+						<div>
+							<h1>Get In Touch</h1>
+							<form method="post" action="form.php">
+							<table class="tab">
+								<tr>
+								<td>
+									<input type="varchar" name="FName" class="fnm" required placeholder="*First Name">
+								</td>
+								</tr>
+								<tr>
+								<td>
+									<input type="varchar" name="LName" class="lnm" placeholder="Last Name">
+								</td>
+								</tr>
+								<tr>
+								<td>
+								<input type="int" name="Ccode" required placeholder="*Code" pattern="{3}" class="cc">
+								<input type="int" name="Contactn" pattern="[0-9]{10}" required placeholder="*Contact No" class="cn">
+								</td>
+								</tr>
+								<tr>
+									<td><input type="varchar" name="Eid" required placeholder="*Email-Id" class="eid"></td>
+									</tr>
+								<tr>
+								<td>
+								<input type="varchar" name="Comment" placeholder="*How may I help you?" class="co">
+								</td>
+								</tr>
+								<tr>
+								<th colspan="2"><button class="bt">Submit</button>
+								</tr>
+							</table>
+							</form>
+						</div>
+						<div class="cd">
+							<section class="fd">
+							<h3>General Contact</h3>
+							<p>Phone: +91-809-092-2831<br>Email: p1301sahay@gmail.com</p>
+							</section>
+							<section class="sd">
+							<h3>Locate Me</h3>
+							<p>SRM University Delhi NCR Campus<br> Modinagar,Ghaziabad-201204</p>
+							</section>
+						</div>
+						<div>
+							<iframe class="map" width="960" height="400" frameborder="5" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJfyry6aaKDDkRpn0SzWi9pj0&key=AIzaSyAxKSwj3j7mTcfH5yEAaqEb0zJjsz4SjwY" allowfullscreen></iframe>
+						</div>
+					</div>
+				</main>
+        		<footer id="msf">
+            		<div class="wrapper">
+                		<ul id="lets-be-social">
+                    	<li>
+                        	<a href="#" rel="external" target="_blank" title="Follow me on Twitter">Twitter.</a>
+                    	</li>
+                    	<li>
+                        	<a href="#" rel="external" target="_blank" title="Be my Facebook friend">Facebook.</a>
+                    	</li>
+                    	<li>
+                          <a href="https://www.linkedin.com/in/piyush-sahay-27b8b16a/" rel="external" target="_blank" title="Get in touch with me on linked in">Linkedin.</a>
+                    	</li>
+                		</ul>
+
+                		<div id="legal">
+                			<span>Handcrafted by<br>Piyush Sahay&copy; 2017</span>
+                		</div>
+                	</div>
+        </footer>
+    </div>
+    <nav id="toc">
+        <ul>
+            <li>
+                <a href="index.html">About.</a></li>
+            <li>
+                <a href="skills.html">My Skills.</a></li>
+             <li>
+                <a href="project-detail-page.html">My Work.</a></li>
+            <li>
+                <a href="Get_in_touch.html">Get in touch.</a></li>
+        </ul>
+	</nav>
+    <script src="ajax/jquery-1.11.0.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script>
+        $(document).ready(function () {
+            PfdMenu._ctor();
+        });
+    </script>
+    <script>
+    	$(document).ready(function(){
+	       ReadMore.init();
+    	})
+    </script>
+</body>
+</html>
