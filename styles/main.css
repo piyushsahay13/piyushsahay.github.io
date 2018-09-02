@@ -32,7 +32,9 @@ a:active {
 a:focus {
   outline: thin dotted; }
 
-
+.git{
+  font-size: 33px;
+}
 img {
   border-style: none;
   vertical-align: bottom; }
